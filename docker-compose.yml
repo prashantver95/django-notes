@@ -1,11 +1,8 @@
 version : "3.8"
 services :
   web :
-     build :
-        context : .
-        dockerfile: Dockerfile
      container_name: prashant_app_container
-     image: prashant-app:1.0
+     image: prashantverma95/prashant-app:1.0
      ports :
          - "8000:8000"
      
